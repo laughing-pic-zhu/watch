@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+<ul>
+    <li>
+        <a href="javascript:void(0)" onClick="dataOne()">
+            将obj b属性改变
+        </a>
+    </li>
+    <li>
+        <a href="javascript:void(0)" onClick="dataTwo()">
+            将obj a属性的dd属性的ddd属性改变
+        </a>
+    </li>
+    <li>
+        <a href="javascript:void(0)" onClick="dataThree()">
+            将obj a属性的dd属性的ddd属性改变
+        </a>
+    </li>
+</ul>
+
+<div id="path">
+</div>
+<div id="old-val">
+</div>
+<div id="new-val">
+</div>
+</body>
+<script src="../src/watch.js"></script>
+<script>
+    var obj = {
+        a: {e: 4, f: 5, g: [{a: 1, b: 2}, [3, 4]], dd: {ddd: 1}},
+        b: 2,
+        c: 3
+    };
+
+    new Watch(obj, call);
+    function call(path, newVal, oldVal) {
+        document.getElementById('path').innerHTML='路径:'+path;
+        document.getElementById('old-val').innerHTML='新的值:'+newVal;
+        document.getElementById('new-val').innerHTML='老的值:'+oldVal;
+    }
+
+    function dataOne() {
+        obj.b = Math.floor(Math.random()*10);
+    }
+
+    function dataTwo() {
+        obj.a.dd.ddd = Math.floor(Math.random()*10);
+    }
+
+    function dataThree() {
+        obj.a.g[0].a = Math.floor(Math.random()*10);
+    }
+</script>
+
+</html>

@@ -1,0 +1,33 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/watch_es5-compiled.js" />
+        <item url="file://$PROJECT_DIR$/test-compiled.js" />
+        <item url="file://$PROJECT_DIR$/array-compiled.js" />
+        <item url="file://$PROJECT_DIR$/watch-compiled.js" />
+        <item url="file://$PROJECT_DIR$/bower_components/clipboard/dist/clipboard-compiled.js" />
+        <item url="file://$PROJECT_DIR$/watch_es5-compiled.js" />
+        <item url="file://$PROJECT_DIR$/bower_components/clipboard/package-compiled.js" />
+        <item url="file://$PROJECT_DIR$/bower_components/clipboard/dist/clipboard.min-compiled.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/test-compiled.js" />
+      <root url="file://$PROJECT_DIR$/array-compiled.js" />
+      <root url="file://$PROJECT_DIR$/watch-compiled.js" />
+      <root url="file://$PROJECT_DIR$/bower_components/clipboard/dist/clipboard-compiled.js" />
+      <root url="file://$PROJECT_DIR$/bower_components/clipboard/package-compiled.js" />
+      <root url="file://$PROJECT_DIR$/bower_components/clipboard/dist/clipboard.min-compiled.js" />
+      <root url="file://$PROJECT_DIR$/watch_es5-compiled.js" />
+      <root url="file://$PROJECT_DIR$/test-compiled.js" />
+      <root url="file://$PROJECT_DIR$/array-compiled.js" />
+      <root url="file://$PROJECT_DIR$/watch-compiled.js" />
+      <root url="file://$PROJECT_DIR$/bower_components/clipboard/dist/clipboard-compiled.js" />
+      <root url="file://$PROJECT_DIR$/watch_es5-compiled.js" />
+      <root url="file://$PROJECT_DIR$/bower_components/clipboard/package-compiled.js" />
+      <root url="file://$PROJECT_DIR$/bower_components/clipboard/dist/clipboard.min-compiled.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
